@@ -1,0 +1,10 @@
+Nome
+Endereco
+Cidade
+Estado
+Genero
+Telefone
+localNascimento
+idade 
+RG
+CPF
