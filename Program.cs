@@ -21,13 +21,17 @@ namespace semana2_aula5
            
                 for (int i = 0; i < perguntas.Length; i ++)
                 {
-                    sw.WriteLine(perguntas[i]);
-
+                    sw.Write(perguntas[i] + ";");
+                } 
+                sw.NewLine();
+                for (int i = 0; i < respostas.Length; i ++)
+                {
                     if (arquivoExiste)
                     {
-                        sw.Write(respostas[i]);
+                        sw.Write(respostas[i] + ";");
                     }                   
                 } 
+                sw.NewLine();
                 sw.Close();          
                
         }
